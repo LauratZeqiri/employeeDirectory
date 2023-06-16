@@ -1,0 +1,92 @@
+
+.shtopun {
+  
+     width: 700px; 
+     margin: 0 auto; 
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 6px 5px rgba(0, 0, 255, .2);
+    margin-bottom: 10px;
+  
+  }
+  
+  .shto{
+    height: 40vh;
+    width: 400px;
+  }
+
+  .shtopun h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .shtopun label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .shtopun input,
+  .shtopun select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .shtopun input[type="submit"] {
+    background-color: #167a8b;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .shtopun input[type="submit"]:hover {
+    background-color: #167a8b;
+  }
+  
+.forms{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* tabelat */
+.tab{
+    width: 70%;
+    margin: 0 auto;
+    height: 50vh;
+    margin-top: 60px;
+
+  
+}
+.tabela {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+   margin-bottom: 80px !important;
+
+  }
+  
+  .tabela th,
+  .tabela td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .tabela th {
+    background-color: #f2f2f2;
+  }
+  
+  .tabela tr:hover {
+    background-color: #f5f5f5;
+  }
+
+
+.tabela2{
+  margin-bottom: 50px;
+}
+
+

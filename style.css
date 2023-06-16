@@ -1,0 +1,155 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+/* Header Section */
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: #167a8b;
+}
+.txt{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+margin: 0 auto;
+color:white
+}
+/* Body Section  */ 
+
+
+
+.body-content{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    background-color:#243d44;
+    width: 25%;
+    height: calc(100vh - 10vh);
+}
+.dashboard{
+    margin: 60px;
+    font-size: 20px;
+    margin: 70px 50px;
+    color: white;
+}
+.dashboard a{
+    text-decoration: none;
+}
+.dashboard a:visited{
+    color: white;
+}
+.dashboard a:link{
+    color: white;
+}
+.dashboard span{
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* drop down Menu */
+.dash {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.drop-down {
+    position: absolute;
+    display: none;
+    width: 200px;
+    background-color: #071c21;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+    margin-top: 10px;
+}
+.do{
+    width: 250px;
+}
+
+.drop-down a {
+    color: white;
+    padding: 5px 10px;
+   
+    display: block;
+}
+
+.dashboard:hover .drop-down {
+    display: block;
+}
+
+
+/* right */
+.right{
+    width: 75%;
+}
+
+.h2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: 1px solid gray;
+}
+.h2 h2{
+  
+    margin-left: 15px;
+}
+
+
+.cards{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+.card1{
+    width: 70%;
+    background-color: #167a8b;
+    text-align: center;
+    height: 25vh;
+    border-radius: 20px;
+    margin-top: 55px;
+    color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+ .card1 .fa-sharp{
+    margin: 15px;
+    color:white;
+    font-size: 40px;
+  
+}
+
+.text{
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+
+/* Tabela */
+
+
+  .delete{
+    text-decoration: none;
+    color:red;
+ font-size: 16x;
+  }
+  
+  .edit{
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 16x;
+  }
+
+.login{
+    color:red;
+  }
